@@ -21,6 +21,8 @@ public class App extends FulibFxApp {
         super.start(primaryStage);
         registerRoutes(component.routes());
         show("/menu");
+
+        //Todo: set icons
         //setAppIcon(primaryStage);
         //setTaskbarIcon();
     }

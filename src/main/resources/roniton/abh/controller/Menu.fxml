@@ -1,7 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.MenuController">
-
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" styleClass="image_background" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.MenuController">
+   <VBox fx:id="vBox_login" alignment="CENTER" layoutX="169.0" layoutY="44.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8; -fx-alignment: center;">
+         <children>
+            <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" text="Aurebesh Helper" textAlignment="CENTER">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="button_read" minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onRead" prefHeight="26.0" prefWidth="173.0" text="Aurebesh -&gt; Latin" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="button_write" minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onWrite" prefHeight="26.0" prefWidth="173.0" text="Latin -&gt; Aurebesh" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="button_practise_read" minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onPractiseRead" prefHeight="26.0" prefWidth="173.0" text="Practise Reading" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="button_practise_write" minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onPractiseWrite" prefHeight="26.0" prefWidth="173.0" text="Practise Writing" textAlignment="CENTER">
+               <VBox.margin>
+                  <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+               </VBox.margin>
+            </Button>
+            <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false" />
+            <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="140.0" style="-fx-alignment: center;" text="App created by Roniton" />
+         </children>
+      </VBox>
+   </VBox>
 </AnchorPane>
