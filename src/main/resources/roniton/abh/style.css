@@ -3,6 +3,14 @@
     src: url('fonts/Aurebesh.otf');
 }
 
+Button {
+    -fx-font-family: 'Roboto Light';
+}
+
+Label {
+    -fx-font-family: 'Roboto Light';
+}
+
 TextField:disabled {
     -fx-opacity: 1;
     -fx-font-family: 'Aurebesh';
@@ -10,5 +18,14 @@ TextField:disabled {
 
 .aurebeshOutputFieldEmpty {
     -fx-opacity: 1;
-    -fx-font-family: 'Arial';
+    -fx-font-family: 'Roboto Light';
+}
+
+.backgroundAnchor {
+    -fx-background-image: url("images/background.jpg");
+    -fx-background-size: cover;
+}
+
+.outerLabel {
+    -fx-font-family: 'Aurebesh';
 }
