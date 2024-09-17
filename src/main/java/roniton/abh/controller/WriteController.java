@@ -1,6 +1,7 @@
 package roniton.abh.controller;
 
 import javafx.beans.value.ChangeListener;
+import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.TextField;
 import javafx.scene.text.Font;
@@ -9,6 +10,7 @@ import org.fulib.fx.annotation.controller.Title;
 import org.fulib.fx.annotation.event.OnDestroy;
 import org.fulib.fx.annotation.event.OnInit;
 import org.fulib.fx.annotation.event.OnRender;
+import roniton.abh.App;
 
 import javax.inject.Inject;
 
@@ -19,9 +21,11 @@ public class WriteController {
     TextField textbox_input;
     @FXML
     TextField textbox_output;
+    @Inject
+    App app;
 
     ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> {
-        if (newVal.isEmpty()){
+        if (newVal.isEmpty()) {
             textbox_output.getStyleClass().add("aurebeshOutputFieldEmpty");
         } else {
             textbox_output.getStyleClass().remove("aurebeshOutputFieldEmpty");
@@ -34,18 +38,22 @@ public class WriteController {
     }
 
     @OnInit
-    void init(){
+    void init() {
 
     }
 
     @OnRender
-    void render(){
+    void render() {
         textbox_output.setFocusTraversable(false);
         textbox_input.textProperty().addListener(changeListener);
     }
 
     @OnDestroy
-    void destroy(){
+    void destroy() {
         textbox_input.textProperty().removeListener(changeListener);
+    }
+
+    public void onReturn() {
+        app.show("/menu");
     }
 }

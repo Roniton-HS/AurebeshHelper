@@ -60,7 +60,7 @@ javafx {
 
 shadowJar {
     archiveClassifier = project.findProperty('platform') ?: 'all'
-    archiveBaseName.set('AureneshHelper')
+    archiveBaseName.set('AurebeshHelper')
     archiveClassifier.set('')
     archiveVersion.set('1')
 }

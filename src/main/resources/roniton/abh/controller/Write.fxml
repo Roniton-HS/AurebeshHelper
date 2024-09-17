@@ -20,9 +20,9 @@
                <Font size="34.0" />
             </font>
          </Label>
-         <TextField fx:id="textbox_output" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefWidth="220.0" promptText="Aurebesh Result" style="-fx-alignment: center;" styleClass="aurebeshOutputFieldEmpty" />
+         <TextField fx:id="textbox_output" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" promptText="Aurebesh Result" style="-fx-alignment: center;" styleClass="aurebeshOutputFieldEmpty" />
          <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false" />
-         <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
+         <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
             <font>
                <Font size="22.0" />
             </font>
