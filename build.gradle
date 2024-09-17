@@ -1,0 +1,66 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'jacoco'
+    id 'org.openjfx.javafxplugin' version "$javaFxPluginVersion"
+    id 'com.github.johnrengelman.shadow' version "$shadowPluginVersion"
+}
+
+group projectGroup
+version projectVersion
+mainClassName = 'de.uniks.stp24.Main'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation group: 'org.jetbrains', name: 'annotations', version: jetbrainsAnnotationsVersion
+
+    // Frameworks
+    implementation group: "org.fulib", name: "fulibFx", version: fulibFxVersion
+    testImplementation 'junit:junit:4.13.1'
+    testImplementation 'junit:junit:4.13.1'
+    annotationProcessor group: "org.fulib", name: "fulibFx-processor", version: fulibFxVersion
+    implementation group: "com.google.dagger", name: "dagger", version: daggerVersion
+    annotationProcessor group: "com.google.dagger", name: "dagger-compiler", version: daggerVersion
+
+    // JavaFX
+    implementation group: "fr.brouillard.oss", name: "cssfx", version: cssFxVersion
+
+    // Search
+    implementation 'me.xdrop:fuzzywuzzy:1.4.0'
+    implementation 'org.jgrapht:jgrapht-core:1.5.2'
+
+    // JSON
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
+}
+
+java {
+    sourceCompatibility = getVersionForMajor(javaSourceVersion)
+    targetCompatibility = getVersionForMajor(javaTargetVersion)
+}
+
+static JavaVersion getVersionForMajor(String version) {
+    return JavaVersion.values().find { (it.majorVersion == version) }
+}
+
+compileJava {
+    options.encoding = "UTF-8"
+    options.sourcepath = sourceSets.main.resources.getSourceDirectories()
+}
+
+javafx {
+    version = javaFxVersion
+    modules = ["javafx.controls", "javafx.graphics", "javafx.fxml", "javafx.media", "javafx.swing"]
+    if (project.hasProperty('platform')) {
+        platform = project.platform
+    }
+}
+
+shadowJar {
+    archiveClassifier = project.findProperty('platform') ?: 'all'
+    archiveBaseName.set('AureneshHelper')
+    archiveClassifier.set('')
+    archiveVersion.set('1')
+}
