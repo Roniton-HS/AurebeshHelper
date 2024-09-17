@@ -10,41 +10,34 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.MenuController">
    <VBox alignment="CENTER" layoutX="169.0" layoutY="44.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
-      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0"
-            prefWidth="268.0" style="-fx-background-color: #ebe8e8; -fx-alignment: center;">
-         <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;"
-                text="Aurebesh Helper" textAlignment="CENTER">
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8; -fx-alignment: center;">
+         <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" text="Aurebesh Helper" textAlignment="CENTER">
             <font>
-               <Font size="24.0"/>
+               <Font size="24.0" />
             </font>
          </Label>
-         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onRead" prefHeight="26.0"
-                 prefWidth="173.0" text="Aurebesh -&gt; Latin" textAlignment="CENTER">
+         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onRead" prefHeight="26.0" prefWidth="173.0" text="Aurebesh → Latin" textAlignment="CENTER">
             <VBox.margin>
-               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
             </VBox.margin>
          </Button>
-         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onWrite" prefHeight="26.0"
-                 prefWidth="173.0" text="Latin -&gt; Aurebesh" textAlignment="CENTER">
+         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onWrite" prefHeight="26.0" prefWidth="173.0" text="Latin → Aurebesh" textAlignment="CENTER">
             <VBox.margin>
-               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
             </VBox.margin>
          </Button>
-         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onPractiseRead"
-                 prefHeight="26.0" prefWidth="173.0" text="Practise Reading" textAlignment="CENTER">
+         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onPractiseRead" prefHeight="26.0" prefWidth="173.0" text="Practise Reading" textAlignment="CENTER">
             <VBox.margin>
-               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
             </VBox.margin>
          </Button>
-         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onPractiseWrite"
-                 prefHeight="26.0" prefWidth="173.0" text="Practise Writing" textAlignment="CENTER">
+         <Button minHeight="10.0" minWidth="-Infinity" mnemonicParsing="false" onAction="#onPractiseWrite" prefHeight="26.0" prefWidth="173.0" text="Practise Writing" textAlignment="CENTER">
             <VBox.margin>
-               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0"/>
+               <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
             </VBox.margin>
          </Button>
-         <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false"/>
-         <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="140.0"
-                style="-fx-alignment: center;" text="App created by Roniton"/>
+         <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false" />
+         <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="140.0" style="-fx-alignment: center;" text="App created by Roniton" />
       </VBox>
    </VBox>
 </AnchorPane>

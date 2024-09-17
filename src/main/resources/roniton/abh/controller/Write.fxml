@@ -1,24 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.control.Separator?>
-<?import javafx.scene.layout.AnchorPane?>
-<?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.WriteController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.WriteController">
    <VBox alignment="CENTER" layoutX="169.0" layoutY="44.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
-      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0"
-            prefWidth="268.0" style="-fx-background-color: #ebe8e8; -fx-alignment: center;">
-         <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;"
-                text="Aurebesh Helper" textAlignment="CENTER">
+      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8; -fx-alignment: center;">
+         <Label fx:id="title" minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" text="Latin → Aurebesh" textAlignment="CENTER">
             <font>
-               <Font size="24.0"/>
+               <Font size="24.0" />
             </font>
          </Label>
-         <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false"/>
-         <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="140.0"
-                style="-fx-alignment: center;" text="App created by Roniton"/>
+         <Separator orientation="VERTICAL" prefHeight="83.0" prefWidth="3.0" visible="false" />
+         <TextField fx:id="textbox_input" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" promptText="Your Text" style="-fx-alignment: center;" />
+         <Label prefHeight="45.0" prefWidth="28.0" style="-fx-alignment: center;" text="↓">
+            <font>
+               <Font size="34.0" />
+            </font>
+         </Label>
+         <TextField fx:id="textbox_output" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefWidth="220.0" promptText="Aurebesh Result" style="-fx-alignment: center;" styleClass="aurebeshOutputFieldEmpty" />
+         <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false" />
+         <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
+            <font>
+               <Font size="22.0" />
+            </font>
+            <VBox.margin>
+               <Insets />
+            </VBox.margin>
+            <padding>
+               <Insets top="-1.0" />
+            </padding>
+         </Button>
       </VBox>
    </VBox>
 </AnchorPane>

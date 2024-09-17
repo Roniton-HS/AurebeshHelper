@@ -20,6 +20,7 @@ public class App extends FulibFxApp {
     public void start(Stage primaryStage){
         super.start(primaryStage);
         registerRoutes(component.routes());
+        primaryStage.getScene().getStylesheets().add(App.class.getResource("style.css").toExternalForm());
         show("/menu");
 
         //Todo: set icons

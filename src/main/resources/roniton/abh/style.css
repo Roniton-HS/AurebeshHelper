@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Aurebesh';
+    src: url('fonts/Aurebesh.otf');
+}
+
+TextField:disabled {
+    -fx-opacity: 1;
+    -fx-font-family: 'Aurebesh';
+}
+
+.aurebeshOutputFieldEmpty {
+    -fx-opacity: 1;
+    -fx-font-family: 'Arial';
+}
