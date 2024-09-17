@@ -11,7 +11,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" styleClass="backgroundAnchor" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.WriteController">
    <VBox alignment="CENTER" layoutX="169.0" layoutY="44.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
-      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
          <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" styleClass="outerLabel" text="e" textAlignment="CENTER">
             <font>
                <Font size="24.0" />
@@ -33,20 +33,17 @@
          </Label>
          <TextField fx:id="textbox_output" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" promptText="Aurebesh Result" style="-fx-alignment: center;" styleClass="aurebeshOutputFieldEmpty" />
          <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false" />
-         <Button alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
-            <font>
-               <Font size="22.0" />
-            </font>
-            <VBox.margin>
-               <Insets />
-            </VBox.margin>
-            <padding>
-               <Insets top="-1.0" />
-            </padding>
-         </Button>
          <padding>
             <Insets top="20.0" />
          </padding>
       </VBox>
    </VBox>
+   <Button alignment="CENTER" layoutX="9.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
+      <font>
+         <Font size="22.0" />
+      </font>
+      <padding>
+         <Insets top="-1.0" />
+      </padding>
+   </Button>
 </AnchorPane>

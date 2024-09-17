@@ -16,6 +16,20 @@ TextField:disabled {
     -fx-font-family: 'Aurebesh';
 }
 
+#outputField {
+    -fx-opacity: 1;
+    -fx-font-size: 16;
+}
+#inputField {
+    -fx-opacity: 1;
+    -fx-font-size: 16;
+}
+
+#inputField {
+    -fx-font-family: 'Aurebesh';
+    -fx-font-size: 15;
+}
+
 .aurebeshOutputFieldEmpty {
     -fx-opacity: 1;
     -fx-font-family: 'Roboto Light';
@@ -28,4 +42,21 @@ TextField:disabled {
 
 .outerLabel {
     -fx-font-family: 'Aurebesh';
+}
+
+.aurebeshInputButton {
+    -fx-font-family: 'Aurebesh';
+    -fx-min-width: 35;
+    -fx-min-height: 35;
+    -fx-max-width: 35;
+    -fx-max-height: 35;
+    -fx-font-size: 14;
+}
+
+#backSpace {
+    -fx-font-size: 32;
+}
+
+#backSpace:hover {
+    -fx-font-size: 32;
 }
