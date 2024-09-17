@@ -2,13 +2,12 @@ package roniton.abh.controller;
 
 import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
-import org.fulib.fx.annotation.event.OnInit;
 import roniton.abh.App;
 
 import javax.inject.Inject;
 
 @Controller
-@Title("AurebeshHelber - Menu")
+@Title("AurebeshHelper - Menu")
 public class MenuController {
     @Inject
     App app;
@@ -17,21 +16,19 @@ public class MenuController {
     public MenuController() {
     }
 
-    @OnInit
-    void init(){
-
-    }
-
     public void onRead() {
+        app.show("/read");
     }
 
     public void onWrite() {
-
+        app.show("/write");
     }
 
     public void onPractiseRead() {
+        app.show("/practiseRead");
     }
 
     public void onPractiseWrite() {
+        app.show("/practiseWrite");
     }
 }
