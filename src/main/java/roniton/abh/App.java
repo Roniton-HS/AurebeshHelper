@@ -7,6 +7,7 @@ import roniton.abh.dagger.MainComponent;
 
 import javax.imageio.ImageIO;
 import java.awt.*;
+import java.util.Objects;
 
 public class App extends FulibFxApp {
     private final MainComponent component;
@@ -26,13 +27,12 @@ public class App extends FulibFxApp {
         primaryStage.setResizable(false);
         show("/menu");
 
-        //Todo: set icons
-        //setAppIcon(primaryStage);
-        //setTaskbarIcon();
+        setAppIcon(primaryStage);
+        setTaskbarIcon();
     }
 
     private void setAppIcon(Stage stage) {
-        final Image image = new Image(App.class.getResource("path").toString());
+        final Image image = new Image(Objects.requireNonNull(App.class.getResource("images/icon.png")).toString());
         stage.getIcons().add(image);
     }
 
@@ -43,7 +43,7 @@ public class App extends FulibFxApp {
 
         try {
             final Taskbar taskbar = Taskbar.getTaskbar();
-            final java.awt.Image image = ImageIO.read(App.class.getResource("path"));
+            final java.awt.Image image = ImageIO.read(Objects.requireNonNull(App.class.getResource("images/icon.png")));
             taskbar.setIconImage(image);
         } catch (Exception ignored) {
         }
