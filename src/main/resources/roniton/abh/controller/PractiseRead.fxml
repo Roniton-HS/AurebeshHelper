@@ -20,7 +20,7 @@
          </Label>
          <Separator orientation="VERTICAL" prefHeight="76.0" prefWidth="6.0" visible="false" />
          <Label text="To Translate:" />
-         <TextField fx:id="toTranslateBox" disable="true" prefHeight="45.0" prefWidth="268.0" style="-fx-alignment: center; -fx-opacity: 1;">
+         <TextField fx:id="toTranslateBox" disable="true" prefHeight="45.0" prefWidth="268.0" style="-fx-alignment: center; -fx-opacity: 1;" styleClass="aurebesh">
             <VBox.margin>
                <Insets bottom="10.0" />
             </VBox.margin>
@@ -36,16 +36,14 @@
                <Font size="18.0" />
             </font></TextField>
          <HBox prefHeight="37.0" prefWidth="247.0" style="-fx-alignment: center;">
-            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onNext"
-                    prefHeight="32.0" prefWidth="74.0" text="check">
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onNext" prefHeight="32.0" prefWidth="74.0" text="check">
                <HBox.margin>
-                  <Insets right="5.0"/>
+                  <Insets right="5.0" />
                </HBox.margin>
             </Button>
-            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onSkip"
-                    prefHeight="32.0" prefWidth="74.0" text="skip">
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onSkip" prefHeight="32.0" prefWidth="74.0" text="skip">
                <HBox.margin>
-                  <Insets left="5.0"/>
+                  <Insets left="5.0" />
                </HBox.margin>
             </Button>
          </HBox>

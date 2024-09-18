@@ -29,7 +29,7 @@
             <graphic>
                <Label text="e">
                   <graphic>
-                     <Label styleClass="outerLabel" text="e →" />
+                     <Label styleClass="aurebesh" text="e →" />
                   </graphic>
                </Label>
             </graphic>
@@ -39,7 +39,7 @@
                <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
             </VBox.margin>
             <graphic>
-               <Label styleClass="outerLabel" text="→ e">
+               <Label styleClass="aurebesh" text="→ e">
                   <graphic>
                      <Label text="e" />
                   </graphic>

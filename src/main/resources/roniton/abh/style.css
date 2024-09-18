@@ -13,7 +13,6 @@ Label {
 
 TextField:disabled {
     -fx-opacity: 1;
-    -fx-font-family: 'Aurebesh';
 }
 
 #outputField {
@@ -27,7 +26,6 @@ TextField:disabled {
 }
 
 #inputField {
-    -fx-font-family: 'Aurebesh';
     -fx-font-size: 15;
 }
 
@@ -42,11 +40,9 @@ TextField:disabled {
 }
 
 .outerLabel {
-    -fx-font-family: 'Aurebesh';
 }
 
 .aurebeshInputButton {
-    -fx-font-family: 'Aurebesh';
     -fx-min-width: 35;
     -fx-min-height: 35;
     -fx-max-width: 35;
@@ -64,4 +60,8 @@ TextField:disabled {
 
 .wrongInputBox {
     -fx-border-color: red;
+}
+
+.aurebesh{
+    -fx-font-family: 'Aurebesh';
 }
