@@ -3,11 +3,10 @@
 ## General
 In the Star Wars universe most text is displayed using the Aurebesh transliteration. It's bascially a different alphabet that displays english text. This app is for those of you who want to translate or practise Aurebesh.
 
-## Installation
-- #### Executable Download
-  soon
+## Download Executable
+will be here soon
 
-- #### Compile it your self
+## Installation (Compile it your self)
 - This app runs on [Java 21](https://www.oracle.com/de/java/technologies/downloads/#jdk21-windows)
 - Clone the repository to your PC
 - Windows: `./gradlew :shadowJar -Pplatform=windows` to compile
