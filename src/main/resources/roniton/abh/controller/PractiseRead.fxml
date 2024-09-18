@@ -1,24 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.PractiseReadController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" styleClass="backgroundAnchor" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.PractiseReadController">
    <VBox alignment="CENTER" layoutX="169.0" layoutY="44.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
-      <VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0"
-            prefWidth="268.0" style="-fx-background-color: #ebe8e8; -fx-alignment: center;">
-         <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;"
-                text="Aurebesh Helper" textAlignment="CENTER">
+      <VBox id="thatBox" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
+         <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" text="Practise Reading" textAlignment="CENTER">
             <font>
-               <Font size="24.0"/>
+               <Font size="24.0" />
             </font>
          </Label>
-         <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false"/>
-         <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="140.0"
-                style="-fx-alignment: center;" text="App created by Roniton"/>
+         <Separator orientation="VERTICAL" prefHeight="76.0" prefWidth="6.0" visible="false" />
+         <Label text="To Translate:" />
+         <TextField fx:id="toTranslateBox" disable="true" prefHeight="45.0" prefWidth="268.0" style="-fx-alignment: center; -fx-opacity: 1;">
+            <VBox.margin>
+               <Insets bottom="10.0" />
+            </VBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></TextField>
+         <Label text="Your Input (only lowercase letters):" />
+         <TextField fx:id="inputBox" prefHeight="45.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="10.0" />
+            </VBox.margin>
+            <font>
+               <Font size="18.0" />
+            </font></TextField>
+         <HBox prefHeight="37.0" prefWidth="247.0" style="-fx-alignment: center;">
+            <children>
+               <Button fx:id="button_next" focusTraversable="false" mnemonicParsing="false" onAction="#onNext" prefHeight="32.0" prefWidth="74.0" text="check">
+                  <HBox.margin>
+                     <Insets right="5.0" />
+                  </HBox.margin>
+               </Button>
+               <Button fx:id="button_next1" focusTraversable="false" mnemonicParsing="false" onAction="#onSkip" prefHeight="32.0" prefWidth="74.0" text="skip">
+                  <HBox.margin>
+                     <Insets left="5.0" />
+                  </HBox.margin>
+               </Button>
+            </children>
+         </HBox>
+         <padding>
+            <Insets left="10.0" right="10.0" top="20.0" />
+         </padding>
       </VBox>
    </VBox>
+   <Button alignment="CENTER" layoutX="15.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
+      <font>
+         <Font size="22.0" />
+      </font>
+      <padding>
+         <Insets top="-1.0" />
+      </padding>
+   </Button>
 </AnchorPane>

@@ -20,6 +20,7 @@ TextField:disabled {
     -fx-opacity: 1;
     -fx-font-size: 16;
 }
+
 #inputField {
     -fx-opacity: 1;
     -fx-font-size: 16;
@@ -59,4 +60,8 @@ TextField:disabled {
 
 #backSpace:hover {
     -fx-font-size: 32;
+}
+
+.wrongInputBox {
+    -fx-border-color: red;
 }
