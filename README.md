@@ -1,7 +1,7 @@
 # AurebeshHelper
 
 ## General
-In the Star Wars universe most text is displayed using the Aurebesh transliteration. It's bascially just a different alphabet that displays english text. This app is for those of you who want to translate or practise Aurebesh.
+In the Star Wars universe most text is displayed using the Aurebesh transliteration. It's bascially a different alphabet that displays english text. This app is for those of you who want to translate or practise Aurebesh.
 
 ## Installation
 - #### Executable Download
