@@ -22,7 +22,7 @@ public class WriteController {
     @Inject
     App app;
 
-    ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> {
+    final ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> {
         if (newVal.isEmpty()) {
             textbox_output.getStyleClass().add("aurebeshOutputFieldEmpty");
         } else {
@@ -33,11 +33,6 @@ public class WriteController {
 
     @Inject
     public WriteController() {
-    }
-
-    @OnInit
-    void init() {
-
     }
 
     @OnRender

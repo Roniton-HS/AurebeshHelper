@@ -9,7 +9,7 @@ import javax.imageio.ImageIO;
 import java.awt.*;
 
 public class App extends FulibFxApp {
-    private MainComponent component;
+    private final MainComponent component;
 
     public App() {
         super();

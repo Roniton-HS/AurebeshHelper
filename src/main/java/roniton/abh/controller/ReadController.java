@@ -31,9 +31,7 @@ public class ReadController {
         inputField.textProperty().addListener(changeListener);
     }
 
-    ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> {
-        outputField.setText(newVal);
-    };
+    final ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> outputField.setText(newVal);
 
     public void onReturn() {
         app.show("/menu");
