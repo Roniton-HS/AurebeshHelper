@@ -1,8 +1,10 @@
 package roniton.abh.controller;
 
+import javafx.event.ActionEvent;
 import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
 import roniton.abh.App;
+import roniton.abh.Constants;
 
 import javax.inject.Inject;
 
@@ -30,5 +32,9 @@ public class MenuController {
 
     public void onPractiseWrite() {
         app.show("/practiseWrite");
+    }
+
+    public void onLearn() {
+        app.show("/learn");
     }
 }

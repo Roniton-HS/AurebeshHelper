@@ -29,6 +29,10 @@ public class Routes {
     @Inject
     Provider<PractiseWriteController> practiseWrite;
 
+    @Route("learn")
+    @Inject
+    Provider<LearnController> learn;
+
     @Inject
     public Routes() {
     }
