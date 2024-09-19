@@ -5,6 +5,7 @@ import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextArea;
+import javafx.scene.control.TextField;
 import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
 import org.fulib.fx.annotation.event.OnRender;
@@ -16,9 +17,9 @@ import javax.inject.Inject;
 @Title("AurebeshHelper - Reading")
 public class ReadController {
     @FXML
-    TextArea inputField;
+    TextField inputField;
     @FXML
-    TextArea outputField;
+    TextField outputField;
     @Inject
     App app;
 

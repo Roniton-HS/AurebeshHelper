@@ -35,6 +35,7 @@ public class PractiseReadController {
     @OnRender
     void render(){
         nextWord();
+
     }
 
     public void onReturn() {
@@ -42,7 +43,7 @@ public class PractiseReadController {
     }
 
     public void onNext() {
-        if (inputBox.getText().equals(toTranslateBox.getText())){
+        if (!inputBox.getText().isEmpty() && inputBox.getText().equals(toTranslateBox.getText())){
             // word are matching
             nextWord();
         }else {
@@ -52,7 +53,7 @@ public class PractiseReadController {
     }
 
     private void nextWord(){
-        inputBox.setText(null);
+        inputBox.setText("");
         int i = random.nextInt(words.size());
         String nextWord = words.get(i);
         toTranslateBox.setText(nextWord);
