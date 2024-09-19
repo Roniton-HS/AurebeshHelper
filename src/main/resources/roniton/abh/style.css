@@ -61,10 +61,10 @@ TextField:disabled {
 }
 
 .aurebeshInputButton {
-    -fx-min-width: 36;
-    -fx-min-height: 36;
-    -fx-max-width: 36;
-    -fx-max-height: 36;
+    -fx-min-width: 37;
+    -fx-min-height: 37;
+    -fx-max-width: 37;
+    -fx-max-height: 37;
     -fx-font-size: 14;
 }
 

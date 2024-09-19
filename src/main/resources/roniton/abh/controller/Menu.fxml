@@ -86,7 +86,7 @@
          <Separator orientation="VERTICAL" prefHeight="186.0" prefWidth="14.0" visible="false" />
          <Label minHeight="-Infinity" minWidth="-Infinity" prefHeight="27.0" prefWidth="140.0" style="-fx-alignment: center;" text="App created by Roniton" />
          <padding>
-            <Insets top="20.0" />
+            <Insets top="15.0" />
          </padding>
       </VBox>
    </VBox>

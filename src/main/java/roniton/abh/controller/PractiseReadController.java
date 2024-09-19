@@ -6,6 +6,8 @@ import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
 import org.fulib.fx.annotation.event.OnRender;
 import roniton.abh.App;
+import roniton.abh.Constants;
+import roniton.abh.service.AurebeshService;
 
 import javax.inject.Inject;
 import java.util.List;
@@ -21,21 +23,14 @@ public class PractiseReadController {
     @Inject
     App app;
     @Inject
+    AurebeshService aurebeshService;
+    @Inject
     public PractiseReadController() {
     }
 
-    final Random random = new Random();
-    final List<String> words = List.of("hello there", "sheev palpatine", "obi-Wan kenobi", "lightsaber", "force",
-            "han solo", "skywalker", "yoda", "x-wing", "high ground", "darth vader", "darth maul", "naboo", "coruscant",
-            "alderaan", "death star", "han shot first", "jabba", "mustafar", "mandalorian", "grogu", "captain rex",
-            "commander cody", "general grievous", "battle droid", "i am the senate", "unlimited power", "hyper drive",
-            "blaster", "clone", "kamino", "stormtrooper", "tarkin", "kit fisto", "darth bane", "geonosis",
-            "droid factory", "thermal detonator", "strike me down", "old republic", "sith", "jedi", "revan");
-
     @OnRender
     void render(){
-        nextWord();
-
+        aurebeshService.nextWord(inputBox, toTranslateBox);
     }
 
     public void onReturn() {
@@ -45,22 +40,14 @@ public class PractiseReadController {
     public void onNext() {
         if (!inputBox.getText().isEmpty() && inputBox.getText().equals(toTranslateBox.getText())){
             // word are matching
-            nextWord();
+            aurebeshService.nextWord(inputBox, toTranslateBox);
         }else {
             // words don't match
             inputBox.getStyleClass().add("wrongInputBox");
         }
     }
 
-    private void nextWord(){
-        inputBox.setText("");
-        int i = random.nextInt(words.size());
-        String nextWord = words.get(i);
-        toTranslateBox.setText(nextWord);
-        inputBox.getStyleClass().remove("wrongInputBox");
-    }
-
     public void onSkip() {
-        nextWord();
+        aurebeshService.nextWord(inputBox, toTranslateBox);
     }
 }

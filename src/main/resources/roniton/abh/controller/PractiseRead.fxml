@@ -48,7 +48,7 @@
             </Button>
          </HBox>
          <padding>
-            <Insets left="10.0" right="10.0" top="20.0" />
+            <Insets left="10.0" right="10.0" top="15.0" />
          </padding>
       </VBox>
    </VBox>

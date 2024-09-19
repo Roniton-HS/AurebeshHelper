@@ -39,7 +39,7 @@
             </styleClass></TextField>
          <Separator orientation="VERTICAL" prefHeight="250.0" prefWidth="13.0" visible="false" />
          <padding>
-            <Insets top="20.0" />
+            <Insets top="15.0" />
          </padding>
       </VBox>
    </VBox>
