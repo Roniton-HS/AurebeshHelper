@@ -21,670 +21,564 @@
                <Font size="15.0" />
             </font></Label>
          <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-alignment: center;">
-            <children>
-               <VBox prefHeight="200.0" prefWidth="100.0">
-                  <children>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="a=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="a">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="c=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="c">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="e=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="e">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="g=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="g">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="i=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="i">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="k=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="k">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="m=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="m">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="o=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="o">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="q=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="q">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="s=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="s">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="u=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="u">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="w=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="w">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="y=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="y">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                  </children>
-               </VBox>
-               <VBox prefHeight="200.0" prefWidth="100.0">
-                  <children>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="b=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="b">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="d=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="d">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="f=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="f">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="h=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="h">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="j=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="j">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="l=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="l">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="n=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="n">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="p=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="p">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="r=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="r">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="t=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="t">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="v=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="v">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="x=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="x">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="z=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="z">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                  </children>
-               </VBox>
-            </children>
             <opaqueInsets>
-               <Insets />
+               <Insets/>
             </opaqueInsets>
             <padding>
-               <Insets bottom="10.0" />
+               <Insets bottom="10.0"/>
             </padding>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="a=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="a">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="c=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="c">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="e=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="e">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="g=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="g">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="i=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="i">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="k=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="k">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="m=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="m">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="o=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="o">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="q=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="q">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="s=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="s">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="u=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="u">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="w=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="w">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="y=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="y">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="b=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="b">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="d=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="d">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="f=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="f">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="h=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="h">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="j=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="j">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="l=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="l">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="n=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="n">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="p=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="p">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="r=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="r">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="t=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="t">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="v=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="v">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="x=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="x">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="z=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="z">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+            </VBox>
          </HBox>
          <Label text="Rarely Used">
             <font>
                <Font size="15.0" />
             </font></Label>
          <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-alignment: center;">
-            <children>
-               <VBox prefHeight="200.0" prefWidth="100.0">
-                  <children>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="ch=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="ç">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="eo=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="ë">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="oo=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="Ø">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="th=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="Æ">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                  </children>
-               </VBox>
-               <VBox prefHeight="200.0" prefWidth="100.0">
-                  <children>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="ae=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="æ">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="ng=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="ñ">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="sh=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="ß">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="kh=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                  </children>
-               </VBox>
-            </children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="ch=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="ç">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="eo=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="ë">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="oo=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="Ø">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="th=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="Æ">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="ae=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="æ">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="ng=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="ñ">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="sh=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="ß">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="kh=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+            </VBox>
          </HBox>
          <Label text="Numbers">
             <font>
                <Font size="15.0" />
             </font></Label>
          <HBox prefHeight="100.0" prefWidth="200.0" style="-fx-alignment: center;">
-            <children>
-               <VBox prefHeight="200.0" prefWidth="100.0">
-                  <children>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="1=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="1">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="3=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="3">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="5=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="5">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="7=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="7">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="9=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="9">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                  </children>
-               </VBox>
-               <VBox prefHeight="200.0" prefWidth="100.0">
-                  <children>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="2=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="2">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="4">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="=4">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="6=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="6">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="8=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="8">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                     <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
-                        <children>
-                           <Label text="0=">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                           <Label styleClass="aurebesh" text="0">
-                              <font>
-                                 <Font size="15.0" />
-                              </font>
-                           </Label>
-                        </children>
-                     </HBox>
-                  </children>
-               </VBox>
-            </children>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="1=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="1">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="3=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="3">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="5=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="5">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="7=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="7">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="9=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="9">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+            </VBox>
+            <VBox prefHeight="200.0" prefWidth="100.0">
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="2=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="2">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="4">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="=4">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="6=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="6">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="8=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="8">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+               <HBox prefHeight="0.0" prefWidth="268.0" style="-fx-alignment: center;">
+                  <Label text="0=">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+                  <Label styleClass="aurebesh" text="0">
+                     <font>
+                        <Font size="15.0"/>
+                     </font>
+                  </Label>
+               </HBox>
+            </VBox>
          </HBox>
          <Label text="(capital letters are horizontally mirrored)" />
          <padding>

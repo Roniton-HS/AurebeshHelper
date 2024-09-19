@@ -1,6 +1,5 @@
 package roniton.abh.controller;
 
-import javafx.event.ActionEvent;
 import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
 import roniton.abh.App;
