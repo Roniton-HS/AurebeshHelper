@@ -13,9 +13,9 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" styleClass="backgroundAnchor" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.ReadController">
    <VBox alignment="CENTER" layoutX="179.0" layoutY="54.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
-      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
          <padding>
-            <Insets top="20.0" />
+            <Insets left="10.0" right="10.0" top="20.0" />
          </padding>
          <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" text="e" textAlignment="CENTER">
             <font>
@@ -33,19 +33,22 @@
             <font>
                <Font size="15.0" />
             </font>
+            <VBox.margin>
+               <Insets bottom="5.0" />
+            </VBox.margin>
          </TextField>
          <TextField fx:id="outputField" editable="false" focusTraversable="false" prefHeight="50.0" style="-fx-alignment: center;">
             <font>
                <Font size="15.0" />
             </font>
          </TextField>
-         <Separator orientation="VERTICAL" prefHeight="41.0" prefWidth="20.0" visible="false" />
+         <Separator orientation="VERTICAL" prefHeight="16.0" prefWidth="18.0" visible="false" />
          <Button id="backSpace" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#backSpace" prefHeight="30.0" prefWidth="65.0" text="⇽">
             <font>
                <Font size="32.0" />
             </font>
             <VBox.margin>
-               <Insets />
+               <Insets bottom="10.0" />
             </VBox.margin>
             <padding>
                <Insets top="-10.0" />
@@ -579,7 +582,7 @@
          </HBox>
       </VBox>
    </VBox>
-   <Button alignment="CENTER" layoutX="7.0" layoutY="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
+   <Button alignment="CENTER" layoutX="7.0" layoutY="8.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" styleClass="backButton" text="↩">
       <font>
          <Font size="22.0" />
       </font>

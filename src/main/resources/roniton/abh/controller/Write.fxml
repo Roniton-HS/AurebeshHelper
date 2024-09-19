@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" styleClass="backgroundAnchor" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.WriteController">
    <VBox alignment="CENTER" layoutX="169.0" layoutY="44.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
-      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
          <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" styleClass="aurebesh" text="e" textAlignment="CENTER">
             <font>
                <Font size="24.0" />
@@ -25,14 +25,14 @@
                </Label>
             </graphic>
          </Label>
-         <Separator orientation="VERTICAL" prefHeight="41.0" prefWidth="20.0" visible="false" />
-         <TextField fx:id="textbox_input" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" promptText="Your Text" style="-fx-alignment: center;" />
-         <Label prefHeight="45.0" prefWidth="28.0" style="-fx-alignment: center;" text="↓">
-            <font>
-               <Font size="34.0" />
-            </font>
-         </Label>
-         <TextField fx:id="textbox_output" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" promptText="Aurebesh Result" style="-fx-alignment: center;">
+         <Separator orientation="VERTICAL" prefHeight="76.0" prefWidth="6.0" visible="false" />
+         <Label text="Your Input:" />
+         <TextField fx:id="textbox_input" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="10.0" />
+            </VBox.margin></TextField>
+         <Label text="Aurebesh Result:" />
+         <TextField fx:id="textbox_output" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" style="-fx-alignment: center;">
             <styleClass>
                <String fx:value="aurebeshOutputFieldEmpty" />
                <String fx:value="aurebesh" />
@@ -43,7 +43,7 @@
          </padding>
       </VBox>
    </VBox>
-   <Button alignment="CENTER" layoutX="9.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
+   <Button alignment="CENTER" layoutX="9.0" layoutY="7.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" styleClass="backButton" text="↩">
       <font>
          <Font size="22.0" />
       </font>

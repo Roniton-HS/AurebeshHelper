@@ -5,10 +5,28 @@
 
 Button {
     -fx-font-family: 'Roboto Light';
+    -fx-border-color: #9f9f9f;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
+    -fx-background-color: #ffffff;
+}
+
+Button:hover {
+    -fx-background-color: #f5f5f5;
 }
 
 Label {
     -fx-font-family: 'Roboto Light';
+}
+
+TextField {
+    -fx-font-size: 15;
+    -fx-pref-height: 50;
+    -fx-border-color: #9f9f9f;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+    -fx-border-radius: 3;
+    -fx-background-radius: 3;
 }
 
 TextField:disabled {
@@ -43,10 +61,10 @@ TextField:disabled {
 }
 
 .aurebeshInputButton {
-    -fx-min-width: 35;
-    -fx-min-height: 35;
-    -fx-max-width: 35;
-    -fx-max-height: 35;
+    -fx-min-width: 36;
+    -fx-min-height: 36;
+    -fx-max-width: 36;
+    -fx-max-height: 36;
     -fx-font-size: 14;
 }
 
@@ -64,4 +82,12 @@ TextField:disabled {
 
 .aurebesh{
     -fx-font-family: 'Aurebesh';
+}
+
+.backButton {
+    -fx-font-size: 22;
+}
+
+.menuButtonText {
+    -fx-font-size: 16;
 }

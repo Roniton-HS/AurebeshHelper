@@ -12,7 +12,7 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" styleClass="backgroundAnchor" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.PractiseReadController">
    <VBox alignment="CENTER" layoutX="169.0" layoutY="44.0" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.39999999999998" AnchorPane.topAnchor="44.0">
-      <VBox id="thatBox" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="662.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
+      <VBox id="thatBox" alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
          <Label minWidth="200.0" prefHeight="59.0" prefWidth="204.0" style="-fx-alignment: center;" text="Practise Reading" textAlignment="CENTER">
             <font>
                <Font size="24.0" />
