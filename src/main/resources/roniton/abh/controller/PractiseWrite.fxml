@@ -11,612 +11,600 @@
 <?import javafx.scene.text.Font?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="648.0" prefWidth="885.0" styleClass="backgroundAnchor" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="roniton.abh.controller.PractiseWriteController">
-   <VBox alignment="CENTER" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0" prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0" AnchorPane.rightAnchor="169.0" AnchorPane.topAnchor="44.0">
-      <children>
-         <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="670.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
-            <padding>
-               <Insets left="10.0" right="10.0" top="15.0" />
-            </padding>
-            <children>
-               <Label minWidth="200.0" prefHeight="48.0" prefWidth="204.0" style="-fx-alignment: center;" text="e" textAlignment="CENTER">
+   <VBox alignment="CENTER" maxWidth="-Infinity" minHeight="234.0" minWidth="-Infinity" prefHeight="560.0"
+         prefWidth="547.0" spacing="15.0" AnchorPane.bottomAnchor="44.0" AnchorPane.leftAnchor="169.0"
+         AnchorPane.rightAnchor="169.0" AnchorPane.topAnchor="44.0">
+      <VBox alignment="TOP_CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+            prefHeight="670.0" prefWidth="268.0" style="-fx-background-color: #ebe8e8CC;">
+         <padding>
+            <Insets left="10.0" right="10.0" top="15.0"/>
+         </padding>
+         <VBox.margin>
+            <Insets/>
+         </VBox.margin>
+         <Label minWidth="200.0" prefHeight="48.0" prefWidth="204.0" style="-fx-alignment: center;" text="e"
+                textAlignment="CENTER">
+            <font>
+               <Font size="24.0"/>
+            </font>
+            <graphic>
+               <Label styleClass="aurebesh" text="e →">
                   <font>
-                     <Font size="24.0" />
+                     <Font size="24.0"/>
                   </font>
-                  <graphic>
-                     <Label styleClass="aurebesh" text="e →">
-                        <font>
-                           <Font size="24.0" />
-                        </font>
-                     </Label>
-                  </graphic>
                </Label>
-               <TextField fx:id="toTranslateBox" editable="false" focusTraversable="false" prefHeight="50.0" prefWidth="268.0" style="-fx-alignment: center;">
-                  <font>
-                     <Font size="15.0" />
-                  </font>
-                  <VBox.margin>
-                     <Insets bottom="5.0" />
-                  </VBox.margin>
-               </TextField>
-               <TextField fx:id="inputBox" editable="false" prefHeight="50.0" prefWidth="268.0" style="-fx-alignment: center;" styleClass="aurebesh">
-                  <font>
-                     <Font size="15.0" />
-                  </font>
-               </TextField>
-               <HBox prefHeight="20.0" prefWidth="247.0" style="-fx-alignment: center;">
-                  <Button id="backSpace" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onBackSpace" prefHeight="26.0" prefWidth="65.0" text="⇽">
-                     <font>
-                        <Font size="32.0" />
-                     </font>
-                     <padding>
-                        <Insets top="-12.0" />
-                     </padding>
-                     <HBox.margin>
-                        <Insets />
-                     </HBox.margin>
-                  </Button>
-                  <Button focusTraversable="false" mnemonicParsing="false" onAction="#onNext" prefHeight="19.0" prefWidth="65.0" text="check">
-                     <HBox.margin>
-                        <Insets left="5.0" right="5.0" />
-                     </HBox.margin></Button>
-                  <Button focusTraversable="false" mnemonicParsing="false" onAction="#onSkip" prefHeight="8.0" prefWidth="66.0" text="skip" />
-                  <VBox.margin>
-                     <Insets bottom="5.0" top="5.0" />
-                  </VBox.margin>
-               </HBox>
-               <Label text="Letters" />
-               <HBox prefHeight="25.0" prefWidth="267.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <padding>
-                     <Insets left="10.0" right="10.0" />
-                  </padding>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="a">
-                        <padding>
-                           <Insets left="10.0" right="10.0" />
-                        </padding>
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="b">
-                        <padding>
-                           <Insets left="10.0" right="10.0" />
-                        </padding>
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="c">
-                        <padding>
-                           <Insets left="10.0" right="10.0" />
-                        </padding>
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="d">
-                        <padding>
-                           <Insets left="10.0" right="10.0" />
-                        </padding>
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="e">
-                        <padding>
-                           <Insets left="10.0" right="10.0" />
-                        </padding>
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="f">
-                        <padding>
-                           <Insets left="10.0" right="10.0" />
-                        </padding>
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <padding>
-                     <Insets left="10.0" right="10.0" />
-                  </padding>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="k">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="j">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="i">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="h">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="g">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="l">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <padding>
-                     <Insets left="10.0" right="10.0" />
-                  </padding>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="m">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="n">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="o">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="p">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="q">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="r">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <padding>
-                     <Insets left="10.0" right="10.0" />
-                  </padding>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="s">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="t">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="u">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="v">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="w">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="x">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <padding>
-                     <Insets left="10.0" right="10.0" />
-                  </padding>
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="y">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="z">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" prefHeight="35.0" prefWidth="58.0" text="space" />
-                  </children>
-               </HBox>
-               <Label text="Special Letter Combinations">
-                  <VBox.margin>
-                     <Insets top="5.0" />
-                  </VBox.margin>
-               </Label>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ç">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="æ">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ë">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ñ">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="Ø">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ß">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="Æ">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <Label text="Special Characters">
-                  <VBox.margin>
-                     <Insets top="5.0" />
-                  </VBox.margin>
-               </Label>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=",">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=".">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="?">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="!">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=":">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=";">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="-">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="“">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="”">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="'">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="'">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="/">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-               <HBox prefHeight="8.0" prefWidth="268.0" style="-fx-alignment: center;">
-                  <VBox.margin>
-                     <Insets bottom="1.0" top="1.0" />
-                  </VBox.margin>
-                  <children>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=")">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                     <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="(">
-                        <HBox.margin>
-                           <Insets left="1.0" right="1.0" />
-                        </HBox.margin>
-                        <styleClass>
-                           <String fx:value="aurebeshInputButton" />
-                           <String fx:value="aurebesh" />
-                        </styleClass>
-                     </Button>
-                  </children>
-               </HBox>
-            </children>
+            </graphic>
+         </Label>
+         <TextField fx:id="toTranslateBox" editable="false" focusTraversable="false" prefHeight="50.0"
+                    prefWidth="268.0" style="-fx-alignment: center;">
+            <font>
+               <Font size="15.0"/>
+            </font>
             <VBox.margin>
-               <Insets />
+               <Insets bottom="5.0"/>
             </VBox.margin>
-         </VBox>
-      </children>
+         </TextField>
+         <TextField fx:id="inputBox" editable="false" prefHeight="50.0" prefWidth="268.0"
+                    style="-fx-alignment: center;" styleClass="aurebesh">
+            <font>
+               <Font size="15.0"/>
+            </font>
+         </TextField>
+         <HBox prefHeight="20.0" prefWidth="247.0" style="-fx-alignment: center;">
+            <Button id="backSpace" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity"
+                    minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#onBackSpace"
+                    prefHeight="26.0" prefWidth="65.0" text="⇽">
+               <font>
+                  <Font size="32.0"/>
+               </font>
+               <padding>
+                  <Insets top="-12.0"/>
+               </padding>
+               <HBox.margin>
+                  <Insets/>
+               </HBox.margin>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onNext" prefHeight="19.0"
+                    prefWidth="65.0" text="check">
+               <HBox.margin>
+                  <Insets left="5.0" right="5.0"/>
+               </HBox.margin>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onSkip" prefHeight="8.0"
+                    prefWidth="66.0" text="skip"/>
+            <VBox.margin>
+               <Insets bottom="5.0" top="5.0"/>
+            </VBox.margin>
+         </HBox>
+         <Label text="Letters"/>
+         <HBox prefHeight="25.0" prefWidth="267.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <padding>
+               <Insets left="10.0" right="10.0"/>
+            </padding>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="a">
+               <padding>
+                  <Insets left="10.0" right="10.0"/>
+               </padding>
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="b">
+               <padding>
+                  <Insets left="10.0" right="10.0"/>
+               </padding>
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="c">
+               <padding>
+                  <Insets left="10.0" right="10.0"/>
+               </padding>
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="d">
+               <padding>
+                  <Insets left="10.0" right="10.0"/>
+               </padding>
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="e">
+               <padding>
+                  <Insets left="10.0" right="10.0"/>
+               </padding>
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="f">
+               <padding>
+                  <Insets left="10.0" right="10.0"/>
+               </padding>
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <padding>
+               <Insets left="10.0" right="10.0"/>
+            </padding>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="k">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="j">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="i">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="h">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="g">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="l">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <padding>
+               <Insets left="10.0" right="10.0"/>
+            </padding>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="m">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="n">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="o">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="p">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="q">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="r">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <padding>
+               <Insets left="10.0" right="10.0"/>
+            </padding>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="s">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="t">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="u">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="v">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="w">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="x">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <padding>
+               <Insets left="10.0" right="10.0"/>
+            </padding>
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="y">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="z">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" prefHeight="35.0"
+                    prefWidth="58.0" text="space"/>
+         </HBox>
+         <Label text="Special Letter Combinations">
+            <VBox.margin>
+               <Insets top="5.0"/>
+            </VBox.margin>
+         </Label>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ç">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="æ">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ë">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ñ">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="Ø">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ß">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="Æ">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <Label text="Special Characters">
+            <VBox.margin>
+               <Insets top="5.0"/>
+            </VBox.margin>
+         </Label>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=",">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=".">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="?">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="!">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=":">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=";">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <HBox prefHeight="9.0" prefWidth="248.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="-">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="“">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="”">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="'">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="'">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="/">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+         <HBox prefHeight="8.0" prefWidth="268.0" style="-fx-alignment: center;">
+            <VBox.margin>
+               <Insets bottom="1.0" top="1.0"/>
+            </VBox.margin>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text=")">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="(">
+               <HBox.margin>
+                  <Insets left="1.0" right="1.0"/>
+               </HBox.margin>
+               <styleClass>
+                  <String fx:value="aurebeshInputButton"/>
+                  <String fx:value="aurebesh"/>
+               </styleClass>
+            </Button>
+         </HBox>
+      </VBox>
    </VBox>
    <Button alignment="CENTER" layoutX="14.0" layoutY="13.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" styleClass="backButton" text="↩">
       <font>

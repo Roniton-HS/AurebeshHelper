@@ -6,12 +6,9 @@ import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
 import org.fulib.fx.annotation.event.OnRender;
 import roniton.abh.App;
-import roniton.abh.Constants;
 import roniton.abh.service.AurebeshService;
 
 import javax.inject.Inject;
-import java.util.List;
-import java.util.Random;
 
 @Controller
 @Title("AurebeshHelper - Practise Reading")

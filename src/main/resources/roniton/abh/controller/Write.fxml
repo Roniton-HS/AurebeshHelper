@@ -27,12 +27,12 @@
          </Label>
          <Separator orientation="VERTICAL" prefHeight="76.0" prefWidth="6.0" visible="false" />
          <Label text="Your Input:" />
-         <TextField fx:id="textbox_input" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" style="-fx-alignment: center;">
+         <TextField fx:id="textBoxInput" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" style="-fx-alignment: center;">
             <VBox.margin>
                <Insets bottom="10.0" />
             </VBox.margin></TextField>
          <Label text="Aurebesh Result:" />
-         <TextField fx:id="textbox_output" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" style="-fx-alignment: center;">
+         <TextField fx:id="textBoxOutput" disable="true" editable="false" focusTraversable="false" maxWidth="-Infinity" prefHeight="26.0" prefWidth="220.0" style="-fx-alignment: center;">
             <styleClass>
                <String fx:value="aurebeshOutputFieldEmpty" />
                <String fx:value="aurebesh" />

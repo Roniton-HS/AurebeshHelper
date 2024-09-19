@@ -21,7 +21,7 @@ public class App extends FulibFxApp {
     public void start(Stage primaryStage){
         super.start(primaryStage);
         registerRoutes(component.routes());
-        primaryStage.getScene().getStylesheets().add(App.class.getResource("style.css").toExternalForm());
+        primaryStage.getScene().getStylesheets().add(Objects.requireNonNull(App.class.getResource("style.css")).toExternalForm());
         primaryStage.setWidth(500);
         primaryStage.setHeight(700);
         primaryStage.setResizable(false);

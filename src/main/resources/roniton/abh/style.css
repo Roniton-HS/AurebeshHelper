@@ -57,9 +57,6 @@ TextField:disabled {
     -fx-background-size: cover;
 }
 
-.outerLabel {
-}
-
 .aurebeshInputButton {
     -fx-min-width: 37;
     -fx-min-height: 37;

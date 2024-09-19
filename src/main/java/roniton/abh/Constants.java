@@ -1,7 +1,6 @@
 package roniton.abh;
 
 import java.util.List;
-import java.util.Random;
 
 public class Constants {
     public static final List<String> words = List.of("hello there", "sheev palpatine", "obi-Wan kenobi", "lightsaber", "force",
