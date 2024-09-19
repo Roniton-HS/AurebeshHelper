@@ -25,5 +25,9 @@ These Features are currently implemented:
 - #### Practise Reading Aurebesh
   Train your Aurebesh skills by reading words in Aurebesh and transliterating them to the Latin Alphabet
 
-- #### Practise Writing Aurebesh (in progress)
+- #### Practise Writing Aurebesh
   Train your Aurebesh skills by writing a given words in Aurebesh
+
+- #### Learn Aurebesh
+  View all rules of Aurebesh
+  
