@@ -8,7 +8,7 @@ plugins {
 
 group projectGroup
 version projectVersion
-mainClassName = 'de.uniks.stp24.Main'
+mainClassName = 'roniton.abh.Main'
 
 repositories {
     mavenCentral()
