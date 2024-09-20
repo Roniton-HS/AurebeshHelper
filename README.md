@@ -8,7 +8,7 @@ In the Star Wars universe most text is displayed using the Aurebesh transliterat
 - unpack the zip
 - run AurebeshHelper.exe
 
-## Installation (Compile it your self)
+## Installation (Compile it yourself)
 - This app runs on [Java 21](https://www.oracle.com/de/java/technologies/downloads/#jdk21-windows)
 - Clone the repository to your PC
 - Windows: `./gradlew :shadowJar -Pplatform=windows` to compile
