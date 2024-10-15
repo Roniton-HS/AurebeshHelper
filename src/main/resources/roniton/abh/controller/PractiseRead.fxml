@@ -52,7 +52,7 @@
          </padding>
       </VBox>
    </VBox>
-   <Button alignment="CENTER" layoutX="15.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" text="↩">
+   <Button alignment="CENTER" layoutX="15.0" layoutY="11.0" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" mnemonicParsing="false" onAction="#onReturn" prefHeight="27.0" prefWidth="54.0" style="-fx-alignment: center;" styleClass="backButton" text="↩">
       <font>
          <Font size="22.0" />
       </font>

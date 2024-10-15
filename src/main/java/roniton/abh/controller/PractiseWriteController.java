@@ -39,7 +39,12 @@ public class PractiseWriteController {
 
     public void onLetterInput(ActionEvent actionEvent) {
         Button b = (Button) actionEvent.getSource();
-        String newText = inputBox.getText() + b.getText();
+        String newText;
+        if (b.getText().equals("space")){
+            newText = inputBox.getText() + " ";
+        }else {
+            newText = inputBox.getText() + b.getText();
+        }
         inputBox.setText(newText);
     }
 

@@ -42,7 +42,12 @@ public class ReadController {
 
     public void onLetterInput(ActionEvent actionEvent) {
         Button b = (Button) actionEvent.getSource();
-        String newText = inputField.getText() + b.getText();
+        String newText;
+        if (b.getText().equals("space")){
+            newText = inputField.getText() + " ";
+        }else {
+            newText = inputField.getText() + b.getText();
+        }
         inputField.setText(newText);
     }
 

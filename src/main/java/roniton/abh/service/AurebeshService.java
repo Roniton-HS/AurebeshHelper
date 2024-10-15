@@ -39,12 +39,11 @@ public class AurebeshService {
                 case 'ç' -> "ch";
                 case 'æ' -> "ae";
                 case 'ë' -> "eo";
-                // TODO: fix last button
-                case ' ' -> " ";
+                case 'þ' -> "kh";
                 case 'ñ' -> "ng";
                 case 'Ø' -> "oo";
                 case 'ß' -> "sh";
-                case 'Æ' -> "th";
+                case 'ð' -> "th";
                 default -> c;
             });
         }
