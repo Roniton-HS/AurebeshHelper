@@ -32,21 +32,22 @@ public class AurebeshService {
         }
     }
 
-    public String buttonInput(ActionEvent actionEvent){
-        Button b = (Button) actionEvent.getSource();
-        String input = b.getText();
-
-        return switch (input) {
-            case "ç" -> "ch";
-            case "æ" -> "ae";
-            case "ë" -> "eo";
-            // TODO: fix last button
-            case " ", "space" -> " ";
-            case "ñ" -> "ng";
-            case "Ø" -> "oo";
-            case "ß" -> "sh";
-            case "Æ" -> "th";
-            default -> input;
-        };
+    public String convertText(String input){
+        StringBuilder output = new StringBuilder();
+        for (char c : input.toCharArray()) {
+            output.append(switch (c) {
+                case 'ç' -> "ch";
+                case 'æ' -> "ae";
+                case 'ë' -> "eo";
+                // TODO: fix last button
+                case ' ' -> " ";
+                case 'ñ' -> "ng";
+                case 'Ø' -> "oo";
+                case 'ß' -> "sh";
+                case 'Æ' -> "th";
+                default -> c;
+            });
+        }
+        return String.valueOf(output);
     }
 }

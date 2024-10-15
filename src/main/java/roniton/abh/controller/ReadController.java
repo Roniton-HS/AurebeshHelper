@@ -3,6 +3,7 @@ package roniton.abh.controller;
 import javafx.beans.value.ChangeListener;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
@@ -33,16 +34,16 @@ public class ReadController {
         inputField.textProperty().addListener(changeListener);
     }
 
-    final ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> outputField.setText(newVal);
+    final ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> outputField.setText(aurebeshService.convertText(newVal));
 
     public void onReturn() {
         app.show("/menu");
     }
 
     public void onLetterInput(ActionEvent actionEvent) {
-        String output = outputField.getText() + aurebeshService.buttonInput(actionEvent);
-        inputField.setText(output);
-        outputField.setText(output);
+        Button b = (Button) actionEvent.getSource();
+        String newText = inputField.getText() + b.getText();
+        inputField.setText(newText);
     }
 
     public void onBackSpace() {

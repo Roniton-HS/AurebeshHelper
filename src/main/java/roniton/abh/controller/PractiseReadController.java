@@ -40,7 +40,9 @@ public class PractiseReadController {
             aurebeshService.nextWord(inputBox, toTranslateBox);
         }else {
             // words don't match
-            inputBox.getStyleClass().add("wrongInputBox");
+            if (!inputBox.getStyleClass().contains("wrongInputBox")){
+                inputBox.getStyleClass().add("wrongInputBox");
+            }
         }
     }
 

@@ -2,6 +2,7 @@ package roniton.abh.controller;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import org.fulib.fx.annotation.controller.Controller;
 import org.fulib.fx.annotation.controller.Title;
@@ -37,8 +38,9 @@ public class PractiseWriteController {
     }
 
     public void onLetterInput(ActionEvent actionEvent) {
-        String output = inputBox.getText() + aurebeshService.buttonInput(actionEvent);
-        inputBox.setText(output);
+        Button b = (Button) actionEvent.getSource();
+        String newText = inputBox.getText() + b.getText();
+        inputBox.setText(newText);
     }
 
     public void onBackSpace() {
@@ -51,7 +53,9 @@ public class PractiseWriteController {
             aurebeshService.nextWord(inputBox, toTranslateBox);
         }else {
             // words don't match
-            inputBox.getStyleClass().add("wrongInputBox");
+            if (!inputBox.getStyleClass().contains("wrongInputBox")){
+                inputBox.getStyleClass().add("wrongInputBox");
+            }
         }
     }
 
