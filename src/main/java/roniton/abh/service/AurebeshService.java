@@ -16,6 +16,13 @@ public class AurebeshService {
 
     final Random random = new Random();
 
+    /**
+     * @param inputBox TextField with user input
+     * @param toTranslateBox TextField with text that needs to be translated by the user
+     * select a random new word to be translated
+     * clears user input
+     * removes red error border
+     */
     public void nextWord(TextField inputBox, TextField toTranslateBox){
         inputBox.setText("");
         int i = random.nextInt(Constants.words.size());
@@ -24,6 +31,10 @@ public class AurebeshService {
         inputBox.getStyleClass().remove("wrongInputBox");
     }
 
+    /**
+     * @param inputBox TextField where backSpace was used on
+     * removes the rightmost char of a String
+     */
     public void backSpace(TextField inputBox){
         String text = inputBox.getText();
         if (!text.isEmpty()){
@@ -32,6 +43,10 @@ public class AurebeshService {
         }
     }
 
+    /**
+     * @param input text that needs to be converted
+     * @return a text where every special character was replaced with its corresponding String
+     */
     public String convertText(String input){
         StringBuilder output = new StringBuilder();
         for (char c : input.toCharArray()) {
@@ -48,5 +63,22 @@ public class AurebeshService {
             });
         }
         return String.valueOf(output);
+    }
+
+    /**
+     * @param inputField TextField where text needs to be added
+     * @param actionEvent Event that was fired when a letter button was pressed
+     * @return old text + new character
+     * mainly handles the "space" input and converts it to an actual space
+     */
+    public String letterInput(TextField inputField,ActionEvent actionEvent){
+        Button b = (Button) actionEvent.getSource();
+        String newText;
+        if (b.getText().equals("space")){
+            newText = inputField.getText() + " ";
+        }else {
+            newText = inputField.getText() + b.getText();
+        }
+        return newText;
     }
 }
