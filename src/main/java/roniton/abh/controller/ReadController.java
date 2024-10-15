@@ -33,16 +33,14 @@ public class ReadController {
         inputField.textProperty().addListener(changeListener);
     }
 
-    final ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> outputField.setText(newVal);
+    final ChangeListener<String> changeListener = (observableValue, oldVal, newVal) -> outputField.setText(aurebeshService.convertText(newVal));
 
     public void onReturn() {
         app.show("/menu");
     }
 
     public void onLetterInput(ActionEvent actionEvent) {
-        String output = outputField.getText() + aurebeshService.buttonInput(actionEvent);
-        inputField.setText(output);
-        outputField.setText(output);
+        inputField.setText(aurebeshService.letterInput(inputField, actionEvent));
     }
 
     public void onBackSpace() {

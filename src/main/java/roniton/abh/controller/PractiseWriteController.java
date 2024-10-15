@@ -37,8 +37,7 @@ public class PractiseWriteController {
     }
 
     public void onLetterInput(ActionEvent actionEvent) {
-        String output = inputBox.getText() + aurebeshService.buttonInput(actionEvent);
-        inputBox.setText(output);
+        inputBox.setText(aurebeshService.letterInput(inputBox, actionEvent));
     }
 
     public void onBackSpace() {
@@ -51,7 +50,9 @@ public class PractiseWriteController {
             aurebeshService.nextWord(inputBox, toTranslateBox);
         }else {
             // words don't match
-            inputBox.getStyleClass().add("wrongInputBox");
+            if (!inputBox.getStyleClass().contains("wrongInputBox")){
+                inputBox.getStyleClass().add("wrongInputBox");
+            }
         }
     }
 

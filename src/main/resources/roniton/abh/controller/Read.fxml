@@ -384,7 +384,7 @@
                   <String fx:value="aurebesh" />
                </styleClass>
             </Button>
-            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput">
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="þ">
                <HBox.margin>
                   <Insets left="1.0" right="1.0" />
                </HBox.margin>
@@ -425,7 +425,7 @@
                   <String fx:value="aurebesh" />
                </styleClass>
             </Button>
-            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="Æ">
+            <Button focusTraversable="false" mnemonicParsing="false" onAction="#onLetterInput" text="ð">
                <HBox.margin>
                   <Insets left="1.0" right="1.0" />
                </HBox.margin>
