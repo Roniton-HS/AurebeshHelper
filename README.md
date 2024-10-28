@@ -4,7 +4,7 @@
 In the Star Wars universe most text is displayed using the Aurebesh transliteration. It's bascially a different alphabet that displays english text. This app is for those of you who want to translate or practise Aurebesh.
 
 ## Installation (Executable)
-- Download the zip [here](https://github.com/Roniton-HS/AurebeshHelper/releases/tag/Release_1.0.0)
+- Download the zip [here](https://github.com/Roniton-HS/AurebeshHelper/releases/tag/Release_1.1.0)
 - unpack the zip
 - run AurebeshHelper.exe
 
