@@ -25,6 +25,7 @@ public class App extends FulibFxApp {
         primaryStage.setWidth(500);
         primaryStage.setHeight(700);
         primaryStage.setResizable(false);
+        primaryStage.centerOnScreen();
         show("/menu");
 
         setAppIcon(primaryStage);
